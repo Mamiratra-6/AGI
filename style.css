@@ -1,6 +1,8 @@
 body{
     background: color white;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header{
     padding: 30Px;
@@ -13,6 +15,10 @@ header nav ul li{
     list-style-type: none;
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header nav ul i{
+margin-left: 50px;
 }
 header img{
     float: left;
@@ -146,12 +152,21 @@ background-color: rgb(32, 32, 133);
         }
         #END-4{
             border-color: rgb(21, 21, 138);
+            
 
         }
+        #END-4 a img{
+            width: 20px;
+            padding-top: 100px;
+            margin: 12px;
+        }
+        
+        
         footer{
             background-color: rgb(24, 24, 150);
             color: wheat;
             text-align: center;
             border-top: 1px;
-            
+            height: 50px;  
         }
+        
